@@ -1,0 +1,48 @@
+@media (max-width:390px){
+    .content-supplements{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+    }
+    
+    .c1{
+        height: 300px;
+    }
+
+    .spc{
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:821px){
+    .content-supplements{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+    }
+    
+    .c1{
+        height: 400px;
+    }
+    .spc{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width:822px){
+    .content-supplements{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+    }
+    
+    .c1{
+        width: 20px;
+    }
+    .spc{
+        margin-bottom: 40px;
+    }
+}

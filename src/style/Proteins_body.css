@@ -1,0 +1,98 @@
+@media (max-width:390px){
+    .contents-proteins{  
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .span-title{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .cards-proteins{
+        background-color: #D80F16;
+        width: 80%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+    
+    .spaces{
+        margin-bottom: 30%;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:821px){
+    .contents-proteins{  
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .span-title{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .cards-proteins{
+        background-color: #D80F16;
+        width: 80%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+    }
+    
+    .spaces{
+        margin-bottom: 30%;
+    }
+}
+
+@media (min-width:822px){
+    .contents-proteins{  
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .span-title{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .cards-proteins{
+        background-color: #D80F16;
+        width: 50%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        margin-right: 20px;
+    }
+    
+    .spaces{
+        margin-bottom: 30%;
+    }
+}

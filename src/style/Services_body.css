@@ -1,0 +1,445 @@
+@media (max-width:390px){
+    .body_services{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;    
+    }
+    
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .program{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+    }
+    
+    
+    .price{
+        background-color: #D80F16;
+        color: white;
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 10%;
+        font-size: 30px;
+    }
+    
+    .personalized{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .brain{
+        color: #D80F16;
+        font-weight: bold;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .plam{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .space{
+        margin-bottom: 5px;
+    }
+    
+    .more{
+        font-size: 15px;
+    }
+    
+    .pop-up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 20px;
+        margin-bottom: 60px;
+    }
+    
+    body.active-modal{
+        overflow-y: hidden;
+    }
+    
+    .btn-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 15%;
+        color: white;
+        font-size: 15px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .modal, .overley{
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+    }
+    
+    .overley{
+        background-color: rgba(49,49,49,0.8);
+    }
+    
+    .modal-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.4;
+        background: #f1f1f1;
+        padding: 14px 28px;
+        border-radius: 3px;
+        max-width: 600px;
+        min-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    
+    .close-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 40px;
+        color: white;
+        font-size: 25px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+    }
+    
+    .service-personalized{
+        font-size: 25px;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+    }
+    
+    li{
+        font-size: 18px;  
+        margin-left: 20px;
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:821px){
+    .body_services{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;    
+    }
+    
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 450px;
+        height: 450px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 40px;
+        margin-left: 20%;
+        margin-bottom: 60px;
+    }
+    
+    .program{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    
+    
+    .price{
+        background-color: #D80F16;
+        color: white;
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 10%;
+        font-size: 40px;
+    }
+    
+    .personalized{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .brain{
+        color: #D80F16;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    
+    .plam{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .space{
+        margin-bottom: 5px;
+    }
+    
+    .pop-up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    
+    body.active-modal{
+        overflow-y: hidden;
+    }
+    
+    .btn-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 10%;
+        color: white;
+        font-size: 15px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+        font-size: 30px;
+    }
+    
+    .modal, .overley{
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+    }
+    
+    .overley{
+        background-color: rgba(49,49,49,0.8);
+    }
+    
+    .modal-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.4;
+        background: #f1f1f1;
+        padding: 14px 28px;
+        border-radius: 3px;
+        max-width: 900px;
+        min-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    
+    .close-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 40px;
+        color: white;
+        font-size: 25px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+        font-size: 30px;
+    }
+    
+    .service-personalized{
+        font-size: 35px;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+    }
+    
+    li{
+        font-size: 25px;  
+        margin-left: 20px;
+        margin-bottom: 3px;
+    }
+}
+
+@media (min-width:822px){
+    .body_services{
+        background-image: linear-gradient(black 50%, red);
+        position: relative;
+        padding: 3em;
+        min-height: 100vh;    
+    }
+    
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 450px;
+        height: 450px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 40px;
+        margin-left: 30%;
+        margin-bottom: 60px;
+    }
+    
+    .program{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    
+    
+    .price{
+        background-color: #D80F16;
+        color: white;
+        width: 50%;
+        margin-top: 20px;
+        border-radius: 10%;
+        font-size: 40px;
+    }
+    
+    .personalized{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .brain{
+        color: #D80F16;
+        font-weight: bold;
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+    
+    .plam{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .space{
+        margin-bottom: 5px;
+    }
+    
+    .pop-up{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10%;
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    
+    body.active-modal{
+        overflow-y: hidden;
+    }
+    
+    .btn-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 10%;
+        color: white;
+        font-size: 15px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+        font-size: 30px;
+    }
+    
+    .modal, .overley{
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+    }
+    
+    .overley{
+        background-color: rgba(49,49,49,0.8);
+    }
+    
+    .modal-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        line-height: 1.4;
+        background: #f1f1f1;
+        padding: 14px 28px;
+        border-radius: 3px;
+        max-width: 900px;
+        min-width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    
+    .close-modal{
+        margin-top: 20px;
+        width: 70%;
+        height: 40px;
+        color: white;
+        font-size: 25px;
+        background-color: #D80F16;
+        border-radius: 20px;
+        border: none;
+        font-size: 30px;
+    }
+    
+    .service-personalized{
+        font-size: 35px;
+        font-weight: bold;
+        display: flex;
+        text-align: center;
+    }
+    
+    li{
+        font-size: 25px;  
+        margin-left: 20px;
+        margin-bottom: 3px;
+    }
+}

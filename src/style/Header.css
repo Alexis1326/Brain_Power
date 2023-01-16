@@ -1,0 +1,83 @@
+@media (max-width:390px){
+    .head{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #363335;
+        height: 90px;
+    }
+    
+    .name-gym{
+        color: #B5B6B9;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .img-logo{
+        border-radius: 40%;
+    }
+    
+    .fa-cart-plus{
+        color:white ;
+    }
+    
+    .line{
+        height: 55px;
+    }
+}
+
+@media only screen and (min-width:391px) and (max-width:821px){
+    .head{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #363335;
+        height: 120px;
+    }
+    
+    .name-gym{
+        color: #B5B6B9;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    .img-logo{
+        border-radius: 40%;
+    }
+    
+    .fa-cart-plus{
+        color:white ;
+    }
+    
+    .line{
+        height: 80px;
+    }
+}
+
+@media (min-width:822px){
+    .head{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #363335;
+        height: 120px;
+    }
+    
+    .name-gym{
+        color: #B5B6B9;
+        font-size: 55px;
+        font-weight: bold;
+    }
+    
+    .img-logo{
+        border-radius: 40%;
+    }
+    
+    .fa-cart-plus{
+        color:white ;
+    }
+    
+    .line{
+        height: 55px;
+    }
+}
